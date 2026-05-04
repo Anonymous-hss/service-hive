@@ -1,0 +1,45 @@
+# Environment & secrets
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+
+# Database
+*.db
+
+# Vector store
+chroma_db/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Package lock (optional — some prefer to commit uv.lock)
+# uv.lock
+
+# Alembic versions (not used — using create_all)
+alembic/versions/
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
